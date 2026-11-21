@@ -5,6 +5,6 @@
   "code-runner.saveFileBeforeRun": true,
   "code-runner.enableAppInsights": false,
   "code-runner.executorMap": {
-    "go": "cd $dir && go run ."
+    "go": "cd $dir && go run $fileName"
   }
 }
