@@ -4,7 +4,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "golang.go"
+        "golang.go",
+        "formulahendry.code-runner"
       ]
     }
   }
