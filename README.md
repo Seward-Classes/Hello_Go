@@ -4,7 +4,7 @@ A small Go starter project for GitHub Codespaces. The example in [`main.go`](./m
 
 ## Run in Codespaces
 
-Open `main.go`. The Go extension adds a **Run/Debug** play button in the editor's upper-right corner; click it to run the file. The first Codespaces setup uses the Go devcontainer configuration in [`.devcontainer/devcontainer.json`](./.devcontainer/devcontainer.json), which installs Go and the Go extension. If prompted to rebuild the container after opening the project, do so.
+Open `main.go`. The Go extension adds a **Run/Debug** play button in the editor's upper-right corner. A workspace launch configuration is provided in [`.vscode/launch.json`](./.vscode/launch.json); you can also select **Launch Go program** from Run and Debug. The first Codespaces setup uses the Go devcontainer configuration in [`.devcontainer/devcontainer.json`](./.devcontainer/devcontainer.json), which installs Go and the Go extension. If prompted to rebuild the container after opening the project, do so.
 
 You can also run the program in the integrated terminal:
 
